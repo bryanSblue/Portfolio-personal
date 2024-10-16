@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bryan's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="banner">
+        <header>
+            <div class="nombre">
+                <a href="#" class="titulo">Bryan<span>Gomez</span></a>
+            </div>
+            <div class="switch"></div>
+        </header>
+        <div class="contenido">
+            <div class="texto">
+                <h4>Que onda ✌️</h4>
+                <h2>Soy
+                    <span style="--i:0" data-text="Trabajador">Trabajador</span>
+                    <span style="--i:1" data-text="Programador">Programador</span>
+                    <span style="--i:2" data-text="Creativo">Creativo</span>
+                </h2>
+                <p>"Dicen que el conocimiento se debe compartir, y así debe ser; pero parte de ello también 
+                    consta en saber que dicho conocimiento no caerá en manos incorrectas".
+                </p>
+                <a href="#">Descargar mi CV</a>
+            </div>
+        </div>  
+        <ul class="redes">
+            <li class="giticon">
+                <a class="nombre">Github</a>
+                <a href="#"><img src="recursos/github2.png"></a>
+            </li>
+            <li class="mailicon">
+                <a class="nombre">Mail</a>
+                <a href="mailto:bryanyupi@hotmail.com"><img src="recursos/Gmail2.png"></a>
+            </li>
+            <li class="linkicon">
+                <a class="nombre">Linkedln</a>
+                <a href="#"><img src="recursos/Linkedin2.png"></a>
+            </li>
+            <li class="whaticon">
+                <a class="nombre">WhatsApp</a>
+                <a href="#"><img src="recursos/whatsapp2.png"></a>
+            </li>
+        </ul>
+        <ul class="menu">
+            <li><a href="formacion.html" target="_blank">Formación Académica & Profesional</a></li>
+            <li><a href="certificaciones.html" target="_blank">Certificaciones</a></li>
+            <li><a href="#">Proyectos</a></li>
+        </ul>      
+    </section>
+    <script>
+        let banner = document.querySelector('.banner');
+        let botonMenu = document.querySelector('.switch');
+        botonMenu.onclick = function() {
+            botonMenu.classList.toggle('activo');
+            banner.classList.toggle('activo');
+        }        
+    </script>
+</body>
+</html>

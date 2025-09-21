@@ -8,7 +8,7 @@ imagenes.forEach(img => { // Esto al hacer clic sobre las imágenes, le añadir�
     })
 });
 
-function eliminarClase (imagenes) { // Función que eliminar la clase "mostrar_img" de quien la tenga activa
+function eliminarClase (imagenes) { // Función que elimina la clase "mostrar_img" de quien la tenga activa
     imagenes.forEach(img => {
         img.classList.remove('mostrar_img')
     })

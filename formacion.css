@@ -54,7 +54,7 @@ body {
     border-radius: 5px;
     border: 1px solid #1de5ff;
     filter: drop-shadow(0 0 5px #1de5ff) drop-shadow(0 0 25px #1de5ff);
-    animation: lineanim 4s linear forwards;
+    animation: lineanim 5s linear forwards;
 }
 @keyframes lineanim {
     0% {
@@ -81,7 +81,7 @@ body {
         transform: translateY(0px)
     }
 }
-.contenedor:nth-child(1) { /*Incrementar estos si añado más experiencias*/
+.contenedor:nth-child(1) { /* <--- Incrementar estos si añado más experiencias*/
     animation-delay: 0s;
 }
 .contenedor:nth-child(2) {
@@ -92,6 +92,9 @@ body {
 }
 .contenedor:nth-child(4) {
     animation-delay: 3s;
+}
+.contenedor:nth-child(5) {
+    animation-delay: 4s;
 }
 .texto {
     padding: 10px 20px;
